@@ -29,10 +29,11 @@
 * DEALINGS IN THE SOFTWARE.
 * **************************************************************************
 * REVISION HISTORY:
-* Author			Date		Comments
-* J. Steinlage			2013Dec30	Original version
-* J. Steinlage                  2014Apr06       Temperature Correction
-* J. Steinlage                  2014Dec12       Added Mega connections table
+* Author			      Date       Comments
+* J. Steinlage			2013Dec30	 Original version
+* J. Steinlage      2014Apr06  Temperature Correction
+* J. Steinlage      2014Dec12  Added Mega connections table
+* J. Steinlage      2017Jul11  Fixed include for struct file
 * 
 * Playing With Fusion, Inc. invests time and resources developing open-source
 * code. Please support Playing With Fusion and continued open-source 
@@ -61,7 +62,7 @@
 #include "SPI.h"
 // include Playing With Fusion MAX31855 libraries
 #include "PlayingWithFusion_MAX31855_Wcorr.h"
-#include "PlayingWithFusion_MAX31855_STRUCT.h"
+#include "PlayingWithFusion_MAX31855_STRUCT_corr.h"
 #include "avr/pgmspace.h"
 
 // #defines for thermocouple types
