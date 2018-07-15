@@ -5,18 +5,18 @@
 ####################################################
 #   Classes (KEYWORD1)
 ####################################################
-PWFusion_MAX31855_TC							KEYWORD1
+PWFusion_MAX31855_TC	KEYWORD1
 
 
 ####################################################
 #   Functions (KEYWORD2)
 ####################################################
-SPIbus_Init								KEYWORD2
-MAX31855_update							KEYWORD2
-TCcorrection							KEYWORD2
+SPIbus_Init	KEYWORD2
+MAX31855_update	KEYWORD2
+TCcorrection	KEYWORD2
 
 ####################################################
 #   Constants (LITERAL1)
 ####################################################
-T_voltage								LITERAL1
-J_voltage								LITERAL1
+T_voltage	LITERAL1
+J_voltage	LITERAL1
